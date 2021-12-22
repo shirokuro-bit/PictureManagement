@@ -1,11 +1,11 @@
-package com.gmail.shirokuro_kazu.mainsystem;
+package com.gmail.shirokuro_kazu.Core;
 
 import com.gmail.shirokuro_kazu.Run;
 
 import java.util.ResourceBundle;
 
 public class LoadFilePath {
-    public LoadFilePath(){
+    public LoadFilePath() {
         ResourceBundle bundle = ResourceBundle.getBundle("FilePath");
 
         Run.data.setOldPath(bundle.getString("OldPath"));

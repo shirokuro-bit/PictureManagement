@@ -30,7 +30,7 @@ public class Data {
         setOldPath(OldPath);
         setNewPath(NewPath);
 
-        // ãƒ—ãƒ­ãƒ‘ãƒ†ã‚£ãƒ•ã‚¡ã‚¤ãƒ«ã®ãƒ‘ã‚¹ã‚’æŒ‡å®šã™ã‚‹
+        // ƒvƒƒpƒeƒBƒtƒ@ƒCƒ‹‚ÌƒpƒX‚ğw’è‚·‚é
         String Path = "src/FilePath.properties";
 
         try {
@@ -41,4 +41,6 @@ public class Data {
             e.printStackTrace();
         }
     }
+
+
 }
